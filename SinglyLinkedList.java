@@ -16,4 +16,5 @@ public class SinglyLinkedList {
             runner.next = newNode;
         }
     }    
+    
 }
