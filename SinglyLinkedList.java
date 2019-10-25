@@ -24,5 +24,12 @@ public class SinglyLinkedList {
             runner = runner.next;
         } 
     }
+    public void remove(){
+        Node runner = head;
+        while(runner.next.next != null){
+            runner = runner.next;
+        }
+        runner.next = null;
+    }
 
 }
