@@ -10,7 +10,7 @@ public class ListTester {
         sll.printValues();
         sll.remove();
         sll.printValues();
-        // sll.remove();
-        // sll.printValues();
+        sll.remove();
+        sll.printValues();
     }
 }
